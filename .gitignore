@@ -1,0 +1,68 @@
+# ------------------ PYTHON ------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env/
+.env.*
+*.env
+
+# ------------------ STREAMLIT ------------------
+.streamlit/secrets.toml
+
+# ------------------ ENV / API KEYS ------------------
+.env
+.env.local
+.env.development
+.env.production
+
+# ------------------ LOGS ------------------
+*.log
+
+# ------------------ JUPYTER ------------------
+.ipynb_checkpoints/
+
+# ------------------ SYSTEM FILES ------------------
+.DS_Store
+Thumbs.db
+
+# ------------------ IDE ------------------
+.vscode/
+.idea/
+
+# ------------------ BUILD FILES ------------------
+dist/
+build/
+*.egg-info/
+
+# ------------------ CACHE ------------------
+.cache/
+*.cache
+
+# ------------------ DATA FILES (optional) ------------------
+data/
+*.csv
+*.xlsx
+
+# ------------------ MODEL FILES (important for AI projects) ------------------
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+
+# ------------------ TEMP FILES ------------------
+tmp/
+temp/
+
+# ------------------ TEST OUTPUT ------------------
+.coverage
+htmlcov/
+
+# ------------------ DOCKER (optional) ------------------
+*.pid
+*.sock
