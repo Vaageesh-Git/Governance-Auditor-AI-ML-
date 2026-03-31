@@ -78,25 +78,27 @@ Final Audit Report
 
 ## Product Structure
 
+```
 model_auditor/
 │
-├── agents/ # AI agents for evaluation and governance
-│ ├── red_team.py # Generates adversarial / stress-test prompts
-│ ├── target.py # Handles interaction with target LLM
-│ ├── judge.py # LLM-based evaluation agent
-│ ├── policy.py # Defines safety, bias, and compliance rules
-│ └── human_review.py # Human-in-the-loop validation layer
+├── agents/                    # AI agents for evaluation and governance
+│   ├── red_team.py            # Generates adversarial / stress-test prompts
+│   ├── target.py              # Handles interaction with target LLM
+│   ├── judge.py               # LLM-based evaluation agent
+│   ├── policy.py              # Defines safety, bias, and compliance rules
+│   └── human_review.py        # Human-in-the-loop validation layer
 │
-├── core/ # Core orchestration and system logic
-│ ├── orchestrator.py # End-to-end workflow controller
-│ └── memory.py # Stores context, logs, and intermediate states
+├── core/                      # Core orchestration and system logic
+│   ├── orchestrator.py        # End-to-end workflow controller
+│   └── memory.py              # Stores context, logs, and intermediate states
 │
-├── config/ # Config-driven automated testing
-│ └── prompt_injection.json # Automated prompt injection & execution pipeline
+├── config/                    # Config-driven automated testing
+│   └── prompt_injection.json  # Automated prompt injection & execution pipeline
 │
-├── main.py # Entry point of the application
+├── main.py                    # Entry point of the application
 │
-└── README.md # Project documentation
+└── README.md                  # Project documentation
+```
 
 
 ---
