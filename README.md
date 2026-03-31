@@ -215,7 +215,7 @@ Move from static scoring to continuous, feedback-driven evaluation.
 
 ## Key Insight
 
-> The goal is not to trust AI systems, but to continuously verify them.
+> The goal is to build trust in AI systems through continuous monitoring, evaluation, and responsible governance.
 
 ---
 
