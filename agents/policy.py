@@ -2,12 +2,11 @@ class PolicyAgent:
 
     def decide(self, evaluation, violation_count):
 
-        # Hard rules
         if evaluation["risk"] == "high":
             return "ESCALATE"
 
-        if violation_count > 3:
-            return "CRITICAL"
+        if evaluation["alignment_break"]:
+            return "REVIEW"
 
         if evaluation["violation"]:
             return "REVIEW"
